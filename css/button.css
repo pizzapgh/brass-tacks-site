@@ -1,0 +1,15 @@
+.btn{
+  padding:0.7em 2em;
+  display:inline-block;
+  background-color:#14ce8a; /*-- teal --*/
+  font-family: 'Poppins', sans-serif;
+  font-weight:400;
+  color:#fff;
+  text-decoration:none;
+}
+.btn-large{
+  font-size:1.25rem;
+}
+.btn-small{
+  font-size: 0.75rem;
+}

@@ -1,0 +1,56 @@
+/*
+Colours
+yellow #eae005
+teal #14ce8a
+black #111010
+gray #5f5757
+pink #ff5967
+white #fff
+
+Breakpoints
+25em = 400px
+38em = 608px
+60em = 960px
+
+Fonts
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+*/
+
+html {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+
+
+
+/* nav style
+=================*/
+
+.hero{position:relative;overflow:hidden;background:url("https://s15.postimg.io/49xfdd1p5/home_hero_l.jpg") no-repeat center top / cover;padding-top:41.43%;}
+.hero-content{padding: 0 1rem;position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align:center;font-size:2rem;color:#fff;}
+
+
+/* hero style
+=================*/
+
+
+/* main stylee
+=================*/
+@media only screen and (min-width:25em){
+}
+@media only screen and (min-width:38em){
+
+}
+@media only screen and (min-width:60em){
+  .desktop{display:block;}
+  .mobile{display:none;}
+  .hero{position:relative;overflow:hidden;background:url("https://s15.postimg.io/49xfdd1p5/home_hero_l.jpg") no-repeat center top / cover;padding-top:41.43%;}
+  .hero-content{padding: 0 1rem;position:absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);text-align:center;font-size:2rem;color:#fff;}
+}
