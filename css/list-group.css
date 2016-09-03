@@ -8,17 +8,14 @@
 .list-group__item {
   display: block;
 }
-
 .list-group__item--inline {
+  display: inline-block;
+}
+.list-group__item--inline--main {
   display: inline-block;
 }
 
 /* In case custom bullets are used */
 .list-group__item::before {
   content: none;
-}
-.list-title{
-  font-family:'Poppins', sans-serif;
-  font-weight:900;
-  color:#14ce8a; /* teal */
 }

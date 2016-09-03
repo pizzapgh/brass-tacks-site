@@ -4,6 +4,7 @@
 */
 
 .grid {
+  position: relative;
   margin: 0;
   padding: 0;
   letter-spacing: -0.31em;
@@ -75,7 +76,7 @@
   display: block;
   visibility: visible;
   width: 100%;
-  border:1px solid red;
+  border:none;
 }
 
 .unit-xs-1-2,
@@ -86,13 +87,13 @@
 .unit-xs-1-3,
 .xs-1-3 {
   width: 33.3333%;
-  border:1px solid red;
+  border:none;
 }
 
 .unit-xs-2-3,
 .xs-2-3 {
   width: 66.6667%;
-  border:1px solid red;
+  border:none;
 }
 
 .unit-xs-1-2,
@@ -166,6 +167,7 @@
     display: block;
     visibility: visible;
     width: 100%;
+    border:none;
   }
 
   .unit-offset-m-0 {
@@ -180,6 +182,7 @@
   .unit-m-1-2,
   .m-1-2 {
     width: 50.0000%;
+    border:none;
   }
 
   .unit-offset-m-1-2 {
@@ -197,6 +200,7 @@
   .unit-m-1-3,
   .m-1-3 {
     width: 33.3333%;
+    border:none;
   }
 
   .unit-offset-m-1-3 {
@@ -214,6 +218,7 @@
   .unit-m-2-3,
   .m-2-3 {
     width: 66.6667%;
+    border:none;
   }
 
   .unit-offset-m-2-3 {
@@ -270,7 +275,7 @@
   .unit-l-1-2,
   .l-1-2 {
     width: 50.0000%;
-    border:1px solid red;
+    border:none;
   }
 
   .unit-offset-l-1-2 {
@@ -288,7 +293,7 @@
   .unit-l-1-3,
   .l-1-3 {
     width: 33.3333%;
-    border:1px solid red;
+    border:none;
   }
 
   .unit-offset-l-1-3 {
@@ -301,13 +306,13 @@
 
   .unit-pull-l-1-3 {
     left: -33.3333%;
-    border:1px solid red;
+    border:none;
   }
 
   .unit-l-2-3,
   .l-2-3 {
     width: 66.6667%;
-        border:1px solid red;
+        border:none;
   }
 
   .unit-offset-l-2-3 {

@@ -98,3 +98,45 @@ small, .milli {
 .pad-bottom-half, .pad-b-1-2 {
   padding-bottom: 0.7500rem;
 }
+
+/* line height
+=================*/
+main h2{
+  line-height: 75%;
+}
+footer h2{
+  line-height: 150%;
+}
+
+.li-xs{
+  font-size:0.8289rem;
+}
+
+.h1-xs{
+  font-size:2em;
+  line-height:120%;
+}
+.h2-xs{
+  font-size:1.280em;
+}
+.h2-lead-xs{
+  font-size:2.150em;
+}
+.h3-xs{
+  font-size:1.2238rem;
+}
+@media only screen and (min-width:25em){
+  .h1-s{font-size:2.5em;}
+}
+@media only screen and (min-width:38em){
+  .h1-m{font-size:4em;}
+  .h2-lead-m{font-size:3.150rem; margin-bottom:1.90em;}
+  .h2-m{font-size:1.880em;}
+  .p-quote-m{font-size:0.90em; line-height:2.1}
+  .h3-l{font-size:2rem;}
+}
+@media only screen and (min-width:60em){
+  .h1-l{font-size:5em;}
+  .h2-lead-l{font-size:4.150rem; margin-bottom:1em;}
+  .li-l{font-size:1.12rem;}
+}
