@@ -72,20 +72,30 @@ ul{
   background-position: 100% 100%;
   padding:2em 0;
 }
+.bg-contact-hero{
+  position:relative;
+  overflow:hidden;
+  background:url("../images/contact-hero-s.jpg") no-repeat center bottom / cover;
+  background-position: 100% 100%;
+  padding:2em 0;
+}
 @media only screen and (min-width:25em){
   .bg-home-hero{padding:4em 0;}
   .bg-service-hero{padding: 5.10em 0; 0;}
   .bg-price-hero{padding: 3.10em 0; 0;}
+  .bg-contact-hero{padding: 5.10em 0; 0;}
 }
 @media only screen and (min-width:38em){
   .bg-home-hero{background:url("../images/home-hero-m.jpg") no-repeat center bottom / cover;}
   .bg-service-hero{  background:url("../images/service-hero-m.jpg") no-repeat center bottom / cover;}
   .bg-price-hero{  background:url("../images/price-hero-m.jpg") no-repeat center bottom / cover;}
+  .bg-contact-hero{  background:url("../images/contact-hero-m.jpg") no-repeat center bottom / cover;}
 }
 @media only screen and (min-width:60em){
   .bg-home-hero{background:url("../images/home-hero-l.jpg") no-repeat center bottom / cover; padding:8em 0;)}
   .bg-service-hero{  background:url("../images/service-hero-l.jpg") no-repeat center bottom / cover; padding:8em 0;}
   .bg-price-hero{  background:url("../images/price-hero-l.jpg") no-repeat center bottom / cover; padding:5em 0;}
+  .bg-contact-hero{  background:url("../images/contact-hero-l.jpg") no-repeat center bottom / cover; padding:8em 0;}
 }
 .bg-primary{
   overflow:hidden;
