@@ -359,6 +359,48 @@ main h4{
 
 /* price style
 =================*/
+#main-contact form div{
+  margin-bottom:1em;
+}
+
+#main-contact .form-inputs input, select, textarea{
+  font-size:1em;
+  width:100%;
+  background:#c3c3c3;
+  padding:0.20em 1em;
+  border:none;
+}
+#radios label, input{
+  display:inline-block;
+}
+#main-contact textarea{
+  height:10em;
+}
+#main-contact button{
+  cursor:pointer;
+}
+#main-contact .btn{
+  padding:1em 6em;
+}
+#main-contact form div{
+  margin-bottom:1em;
+}
+#main-contact ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+#main-contact ::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+#main-contact :-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+#main-contact :-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+
+
+/* main contact style
+=================*/
 
 footer .box{
   background: rgba(90, 90, 90, 0.5);
@@ -407,6 +449,9 @@ padding-right:1em;
 footer p{
   margin-bottom:0;
 }
+
+
+
 
 
 /* footer style
