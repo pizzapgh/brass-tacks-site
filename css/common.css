@@ -47,9 +47,7 @@
 .margin-bottom-s{
   margin-bottom:1em;
 }
-.margin-bottom-zero{
-  margin-bottom:0;
-}
+
 
 @media only screen and (min-width:38em){
   .margin-right{margin-right:15%;}
