@@ -9,20 +9,19 @@
     <link rel="stylesheet" href="css/typography.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/button.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/media-object.css" media="screen" title="no title">
-    <link rel="stylesheet" href="css/theme.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/list-group.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/grid.css" media="screen" title="no title">
+    <link rel="stylesheet" href="css/utilities.css" media="screen" title="no title">
     <link rel="stylesheet" href="css/theme.css" media="screen" title="no title">
-    <link rel="stylesheet" href="css/common.css" media="screen" title="no title">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   </head>
   <body>
 
 
 <header id="red-car-hero">
-  <div class="grid-nav pad-top-bottom-nav">
+  <div class="grid-nav nav-pad-sandwich">
     <div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-3 unit-l-3 gutter">
-      <img src="images/header-logo.png" alt="brass tacks" />
+      <a href="index.html"><img src="images/header-logo.png" alt="brass tacks" /></a>
     </div>
     <nav class="unit unit-xs-2-3 unit-s-2-3 unit-m-2-3 unit-l-2-3 gutter">
       <label for="mobile-menu"></label>
@@ -30,38 +29,37 @@
       <ul class="list-group menu">
         <li class="list-group__item--inline"><a href="index.html">Home</a></li>
         <li class="list-group__item--inline"><a href="service.html">Service</a></li>
-        <li class="list-group__item--inline"><a href="price.html">Pricing</a></li>
-        <li class="list-group__item--inline"><a href="contact.html">Contact</a></li>
+        <li class="list-group__item--inline"><a href="contacts.html">Contact</a></li>
       </ul>
     </nav> <!-- end nav -->
   </div>
   <div class="bg-home-hero">
     <div class="grid center">
       <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
-        <h1 class="h1-xs h1-s h1-m h1-l"><span class="heavy-title-primary">Mobile</span> Auto Eco <br> Wash &amp; <span class="heavy-title-primary">Wax</span></h1>
+        <h1><span class="heavy-title-primary">Mobile</span> Auto Eco <br> Wash &amp; <span class="heavy-title-primary">Wax</span></h1>
       </div>
     </div>
   </div>
 </header>
  <!-- end header -->
 
-<section class="bg-primary pad-top-bottom pad-top-bottom-s pad-top-bottom-lg">
-    <div id="serving-the-pittsburgh" class="grid gutter center">
+<section id="serving-the-pittsburgh" class="bg-primary pad-sandwich-xs">
+    <div class="grid gutter center">
       <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3 serving-the-pittsburgh">
-        <h2 class="h2-xs h2-m margin-bottom-s">Serving the <span class="heavy-title-alternative">Pittsburgh</span> area</h2>
+        <h2 class="h2-xs h2-m">Serving the <span class="heavy-title-alternative">Pittsburgh</span> area</h2>
       </div>
       <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
-                <a class="btn-s btn center" href="#service">Learn more</a>
+        <a class="btn-s btn center" href="service.html">Learn more</a>
       </div>
     </div>
 </section>
 <!-- for desktop and mobile -->
 
-<main id="list-of-service">
-        <section class="mobile pad-top-bottom-s">
+<main id="main-home">
+        <section class="mobile pad-sandwich-xs">
           <div class="grid">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1 center">
-              <h2 class="h2-lead-xs mobile">Wefff <span class="heavy-title-secondary">come</span> to you <br><span class="giga">and <span class="heavy-title-secondary">clean...</span></span></h2>
+              <h2 class="mobile">We <span class="heavy-title-secondary">come</span> to you <br><span class="scale-down-2">and <span class="heavy-title-secondary">clean...</span></span></h2>
             </div>
           </div>
         </section>
@@ -69,65 +67,54 @@
 
         <section class="mobile pad-bottom-s">
           <div class="grid">
-            <div id="service-list" class="unit unit-xs-1-2 unit-s-1-2 gutter">
-              <h2 class="desktop">We <span class="heavy-title-secondary">come</span> to you <br><span class="giga">and <span class="heavy-title-secondary">clean...</span></span></h2>
+            <div class="unit unit-xs-1-1 unit-s-1-1 service-list gutter">
+              <h2 class="desktop">We <span class="heavy-title-secondary">come</span> to you <br><span class="scale-down-2">and <span class="heavy-title-secondary">clean...</span></span></h2>
               <!-- hide this for mobile / show for desktop -->
-                <ul class="interior bg-secondary list-group__item--inline--main brand-family-secondary margin-right">
+                <ul class="interior bg-secondary list-group__item--inline--main brand-family-secondary">
                   <li class="title-secondary h3-xs">Interior</li>
-                  <li class="li-xs">Rubber Floor mats</li>
-                  <li class="li-xs">Handles &#47; Pockets &#47; Pedals</li>
-                  <li class="li-xs">Leather Conditioned</li>
-                  <li class="li-xs">Vacuumed including</li>
-                  <li class="li-xs">Trunk and seats</li>
+                  <li class="scale-down-2">Rubber Floor mats</li>
+                  <li class="scale-down-2">Handles &#47; Pockets &#47; Pedals</li>
+                  <li class="scale-down-2">Leather Conditioned</li>
+                  <li class="scale-down-2">Vacuumed including</li>
+                  <li class="scale-down-2">Trunk and seats</li>
                 </ul>
                 <ul class="exterior bg-secondary list-group__item--inline--main brand-family-secondary">
                   <li class="title-secondary h3-xs">Exterior</li>
-                  <li class="li-xs">Tires &amp; Wheel Wells</li>
-                  <li class="li-xs">Exterior Trim</li>
-                  <li class="li-xs">Windows &#47; Mirrors</li>
-                  <li class="li-xs">Door Jambs &#47; Gas Cap</li>
-                  <li class="li-xs">Light Bugs &#47; Tar &#47; Road Grime</li>
-                  <li class="li-xs">Tires &#47; Wheels &#47; Wheel Wells</li>
+                  <li class="scale-down-2">Tires &amp; Wheel Wells</li>
+                  <li class="scale-down-2">Exterior Trim</li>
+                  <li class="scale-down-2">Windows &#47; Mirrors</li>
+                  <li class="scale-down-2">Door Jambs &#47; Gas Cap</li>
+                  <li class="scale-down-2">Light Bugs &#47; Tar &#47; Road Grime</li>
+                  <li class="scale-down-2">Tires &#47; Wheels &#47; Wheel Wells</li>
                 </ul>
             </div>
-            <div id="adam-quote" class="unit unit-xs-1-2 unit-s-1-2 gutter">
-              <div class="media">
-                <div class="media__img center">
-                  <img src="images/adam-helbling.png" alt="picture of adam helbling" />
-                </div>
-                <div class="media__body">
-                  <h5><span class="name-heavy-primary kilo">Adam Helbing</span><span class="name-heavy-title-secondary milli"> | Brass Tacks Owner</span></h5>
-                  <p class="micro brand-family-secondary-italics">For us, detailing isn’t just a job, it’s our passion. Providing a quality service at your convenience is what we’re all about.</p>
-                  <h4 class="center"><a href="#pricing"><span class="title-secondary-underline">Price?</span><br><span class="title-secondary-alternative milli">Click here</span></a></h4>
-                </div>
-              </div>
-            </div>
+          </div>
           </section>
         <!-- only show for mobile -->
 
-<section class="desktop pad-top-lg">
+<section class="desktop pad-top-1x pad-bottom-s">
     <div class="grid">
-      <div id="service-list" class="unit unit-m-2-3 unit-l-2-3 pad-top-bottom-s gutter">
-        <h2 class="h2-lead-m h2-lead-l desktop">We <span class="heavy-title-secondary">come</span> to you <br><span class="giga">and <span class="heavy-title-secondary">clean...</span></span></h2>
-          <ul class="interior bg-secondary list-group__item--inline--main brand-family-secondary margin-right">
-            <li class="h3-l title-secondary">Interior</li>
-            <li class="milli">Rubber Floor mats</li>
-            <li class="milli">Handles &#47; Pockets &#47; Pedals</li>
-            <li class="milli">Leather Conditioned</li>
-            <li class="milli">Vacuumed including</li>
-            <li class="milli">Trunk and seats</li>
+      <div class="unit unit-m-2-3 unit-l-2-3 service-list gutter">
+        <h2 class="desktop">We <span class="heavy-title-secondary">come</span> to you <br><span class="scale-down">and <span class="heavy-title-secondary">clean...</span></span></h2>
+          <ul class="interior bg-secondary list-group__item--inline--main brand-family-secondary">
+            <li class="title-secondary">Interior</li>
+            <li class="scale-down-2">Rubber Floor mats</li>
+            <li class="scale-down-2">Handles &#47; Pockets &#47; Pedals</li>
+            <li class="scale-down-2">Leather Conditioned</li>
+            <li class="scale-down-2">Vacuumed including</li>
+            <li class="scale-down-2">Trunk and seats</li>
           </ul>
           <ul class="exterior bg-secondary list-group__item--inline--main brand-family-secondary">
-            <li class="h3-l title-secondary">Exterior</li>
-            <li class="milli">Tires &amp; Wheel Wells</li>
-            <li class="milli">Exterior Trim</li>
-            <li class="milli">Windows &#47; Mirrors</li>
-            <li class="milli">Door Jambs &#47; Gas Cap</li>
-            <li class="milli">Light Bugs &#47; Tar &#47; Road Grime</li>
-            <li class="milli">Tires &#47; Wheels &#47; Wheel Wells</li>
+            <li class="title-secondary">Exterior</li>
+            <li class="scale-down-2">Tires &amp; Wheel Wells</li>
+            <li class="scale-down-2">Exterior Trim</li>
+            <li class="scale-down-2">Windows &#47; Mirrors</li>
+            <li class="scale-down-2">Door Jambs &#47; Gas Cap</li>
+            <li class="scale-down-2">Light Bugs &#47; Tar &#47; Road Grime</li>
+            <li class="scale-down-2">Tires &#47; Wheels &#47; Wheel Wells</li>
           </ul>
       </div>
-    <div id="vine-video" class="unit unit-m-1-3 unit-l-1-3 pad-top-bottom-s gutter">
+    <div class="unit unit-m-1-3 unit-l-1-3 gutter">
         <div class='embed-container'>
           <iframe src="https://vine.co/v/Mq0LK7tAXiI/embed/postcard" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
           <script async src='//platform.vine.co/static/scripts/embed.js' charset='utf-8'></script>
@@ -136,48 +123,48 @@
   </div>
 </section>
 
-<section class="desktop pad-bottom-lg">
+<section class="desktop pad-bottom-l">
   <div class="grid">
-    <div id="adam-quote" class="unit unit-m-2-3 unit-l-2-3 pad-top-bottom-s gutter">
+    <div id="adam-quote" class="unit unit-m-2-3 unit-l-2-3  gutter">
       <div class="media">
         <div class="media__img">
           <img src="images/adam-helbling.png" alt="picture of adam helbling" />
         </div>
         <div class="media__body">
-          <h5 class="name-heavy-primary kilo">Adam Helbling</span>  <span class="name-heavy-title-secondary milli"> | Brass Tacks Owner</span></h5>
+          <h5 class="name-heavy-primary kilo">Adam Helbling</span>  <span class="name-heavy-title-secondary scale-down-2"> | Brass Tacks Owner</span></h5>
           <p class="p-quote-m brand-family-secondary-italics">For us, detailing isn’t just a job, it’s our passion. <br> Providing a quality service at your convenience <br> is what we’re all about.</p>
         </div>
       </div>
     </div>
-    <div class="unit unit-m-1-3 unit-l-1-3">
-      <h4 class="center"><a href="#pricing"><span class="title-secondary-underline">Price?</span><br><span class="title-secondary-alternative milli">Click here</span></a></h4>
+    <div class="logo" class="unit unit-m-1-3 unit-l-1-3">
+      <img src="images/header-logo.png" alt="brass-tacks-logo" />
     </div>
   </div>
 </section>
 </main>
 <!-- end main -->
 
-        <footer class="mobile center bg-primary pad-top-bottom-s">
+        <footer class="mobile center bg-primary pad-sandwich-xs">
           <div class="grid">
             <div class="unit unit-xs-1 unit-s-1 unit-m-1 gutter">
-              <h2 class="h2-lead-xs h2-s">We <span class="heavy-title-secondary">serve</span> these boroughs</h2>
-              <div id="service-list" class="box margin-bottom">
-                <ul class="milli area-left list-group__item--inline">
+              <h2>We <span class="heavy-title-secondary">serve</span> these boroughs</h2>
+              <div class="box">
+                <ul class="scale-down-2 area-left list-group__item--inline">
                   <li>Brighton Heights</li>
                   <li>North Side</li>
                   <li>Bellevue</li>
                   <li>Ben Avon</li>
                   <li>Emsworth</li>
                 </ul>
-                <ul class="milli area-right list-group__item--inline">
+                <ul class="scale-down-2 area-right list-group__item--inline">
                   <li>Sewickley</li>
                   <li>Bell Acres</li>
                   <li>Coraopolis</li>
                   <li>Glenfield</li>
                 </ul>
               </div>
-              <a class="btn-s btn margin-bottom" href="#contact">Get your ride clean</a>
-              <p class="margin-bottom-s micro">&copy; 2016 BRASSTACKS. ALL RIGHTS RESERVED. <br> MADE WITH <i class="fa fa-heart" aria-hidden="true"></i> <a href="#mysite">CHRISBRENNANPGH.COM</a></p>
+              <a class="btn-s btn" href="contacts.html">Get your ride clean</a>
+              <p class="micro">&copy; 2016 BRASSTACKS. ALL RIGHTS RESERVED. <br> MADE WITH <i class="fa fa-heart" aria-hidden="true"></i> <a href="#mysite">CHRISBRENNANPGH.COM</a></p>
               <ul class="social">
                 <li class="list-group__item--inline"><a href="#"><i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i></a></li>
                 <li class="list-group__item--inline"><a href="#"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a></li>
@@ -188,11 +175,11 @@
         </footer>
         <!-- mobile -->
 
-<footer class="desktop bg-primary pad-top-bottom-lg">
+<footer class="desktop bg-primary pad-sandwich-1x">
   <div class="grid">
     <div class="unit unit-m-1-2 unit-l-1-2 gutter">
       <h2 class="h2-m">We <span class="heavy-title-secondary">serve</span> these <br> boroughs</h2>
-      <a class="btn" href="#contact">Get your ride clean</a>
+      <a class="btn" href="contacts.html">Get your ride clean</a>
       <!-- button -->
       <h3><span class="heavy-title-secondary">Follow us</span></h3>
       <ul class="social">
@@ -200,22 +187,22 @@
         <li class="list-group__item--inline"><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
         <li class="list-group__item--inline"><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
       </ul>
-      <p class="copy-left micro">&copy; 2016 BRASSTACKS. ALL RIGHTS RESERVED.</p>
+      <p class="micro">&copy; 2016 BRASSTACKS. ALL RIGHTS RESERVED.</p>
     </div>
     <div class="unit unit-m-1-2 unit-l-1-2 center gutter">
       <div class="box">
         <ul class="area-left list-group__item--inline">
-          <li class="li-l">Brighton Heights</li>
-          <li class="li-l">North Side</li>
-          <li class="li-l">Bellevue</li>
-          <li class="li-l">Ben Avon</li>
-          <li class="li-l">Emsworth</li>
+          <li class="">Brighton Heights</li>
+          <li class="">North Side</li>
+          <li class="">Bellevue</li>
+          <li class="">Ben Avon</li>
+          <li class="">Emsworth</li>
         </ul>
         <ul class="area-right list-group__item--inline">
-          <li class="li-l">Sewickley</li>
-          <li class="li-l">Bell Acres</li>
-          <li class="li-l">Coraopolis</li>
-          <li class="li-l">Glenfield</li>
+          <li class="">Sewickley</li>
+          <li class="">Bell Acres</li>
+          <li class="">Coraopolis</li>
+          <li class="">Glenfield</li>
         </ul>
       </div>
       <p class="copy-right micro">MADE WITH <i class="fa fa-heart" aria-hidden="true"></i><a href="#mysite"> CHRISBRENNANPGH.COM</a></p>
