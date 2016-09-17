@@ -16,18 +16,9 @@
   float:right;
 }
 
-/*
-aligning
+/*  align
 ======================*/
 
-.underline{
-  text-decoration: underline;
-  color:red;
-}
-
-/*
-misc
-======================*/
 
 .gutter{
   padding-left: 1em;
@@ -45,33 +36,18 @@ column padding
   padding-top:1em;
 }
 
-/*
-extra small
-======================*/
-
-
 .pad-top-s{
   padding-top:2em;
 }
 .pad-bottom-s{
   padding-bottom:2em;
 }
-
-/*
-small
-======================*/
-
 .pad-top-m{
   padding-top:3em;
 }
 .pad-bottom-m{
   padding-bottom:3em;
 }
-
-/*
-medium
-======================*/
-
 .pad-top-l{
   padding-top:4em;
 }
@@ -79,38 +55,24 @@ medium
   padding-bottom:4em;
 }
 
-/*
-large
-======================*/
-
 .pad-top-1x{
   padding-top:4.5em;
 }
 .pad-bottom-1x{
-  padding-bottom:4.5em;
+  padding-bottom:1.5em;
 }
-
-
 .pad-top-2x{
   padding-top:6em;
 }
 .pad-bottom-2x{
   padding-bottom:6em;
 }
-
-
 .pad-top-3x{
   padding-top:7em;
 }
 .pad-bottom-3x{
   padding-bottom:7em;
 }
-
-/*
-xtra large
-======================*/
-
-
 .pad-sandwich-xs{
   padding:2em 0;
 }
@@ -130,11 +92,7 @@ xtra large
   padding:7em 0;
 }
 
-.margin-top{
-  margin-top:1em;
-}
-/*
-top-bottom pad
+/* top-bottom pad
 ======================*/
 
 .nav-pad-sandwich{
@@ -144,3 +102,60 @@ top-bottom pad
 .micro{
   font-size:0.9rem;
 }
+.bg-primary{
+  background:#ecee21;
+}
+
+/* misc
+======================*/
+
+span.heavy-title-alternative{
+  color:#808080;
+  font-weight:900;
+}
+span.heavy-title-primary{
+  color:#fff;
+  font-weight:900;
+}
+span.heavy-title-secondary{
+  color:#111010;
+  font-weight:900;
+}
+.brand-family-primary{
+  font-family: 'Poppins', sans-serif;
+  color:red;
+}
+.brand-family-secondary{
+  font-family: 'Open Sans', sans-serif;
+  color:#111010;
+}
+.brand-family-secondary-italics{
+  font-family: 'Open Sans', sans-serif;
+  color:#5f5757; /* light-gray */
+  font-weight:500;
+  font-style:italic;
+}
+.title-secondary{
+  font-family:'Poppins', sans-serif;
+  font-weight:900;
+  color:#14ce8a; /* teal */
+}
+
+.title-secondary-alternative{
+  font-family:'Poppins', sans-serif;
+  font-weight:500;
+  color:#b1b1b1; /* teal */
+}
+.name-heavy-primary{
+  font-family:'Poppins', sans-serif;
+  font-weight:600;
+  color:#5f5757;
+}
+.name-heavy-title-secondary{
+  font-family: 'Open Sans', sans-serif;
+  font-weight:800;
+  color:#5f5757;
+}
+
+/* type
+======================*/
