@@ -497,6 +497,7 @@ nav #mobile-menu {
 }
 #main-service h3 {
   padding-left: 3em;
+  font-weight: 700 !important;
 }
 #main-service h4 {
   margin-top: 2em;
@@ -675,7 +676,7 @@ nav #mobile-menu {
 #main-contact h2 {
     color: #555555;
     font-size: 1.3rem;
-    font-weight: 600;
+    font-weight: 700 !important;
     font-weight:bold;
     margin-bottom: 0.5em;
 }
@@ -862,7 +863,7 @@ input {
 }
 #main-contact .contact-questions{
   color:#2cd198;
-  font-weight:400;
+  font-weight:700 !important;
   font-weight:normal;
 }
 @media only screen and (min-width:60em) {
